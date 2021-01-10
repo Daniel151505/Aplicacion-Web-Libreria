@@ -1,9 +1,10 @@
-on:
+zon:
   push:
     branches:
       - main
 
 name: Deploy to heroku
+
 
 env:
   HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
